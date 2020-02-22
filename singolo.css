@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src: url(assets/lato/Lato-Regular);
+  src: url(assets/lato/Lato-Bold);
+}
+
+h1, h2, h3, p, a {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  color: #666d89;
+}
+
+h2 {
+  font-size: 24px;
+  color: #666d89;
+}
+
+h3 {
+  font-size: 18px;
+  color: #666d89;
+}
+
+p {
+  font-size: 12px;
+  color: #767e9e;
+}
+
+a {
+  text-decoration: none;
+  wite-size: 700px;
+  color: white;
+}
+
+ a:hover {
+  color: #e36861; 
+  text-decoration: underline; 
+}
+
+#strelka-levo:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.2);
+}
+
+#strelka-pravo:hover {
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+}
+
+.page-style {
+  padding-top: px;
+  height: auto;
+  width: 1020px;
+  margin: auto;
+}
+
+.container-top {
+  height: 89px;
+  width: 1020px;
+  color: white;
+  background: #2d303a;
+}
+
+.logo {
+  float: left;
+  margin-top: absolute;
+  padding-left: 39px;
+  line-height: 38px;
+}
+
+.menu {
+  float: right;
+  margin-top: absolute;
+  padding-right: 40px;
+  line-height: 73px;
+  max-width: 435px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #f06c64;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: justify;
+  margin-left: 7.7px;
+  line-height:28px;
+  font-size: 8.65655pt;
+  color:  #f06c64;
+}
+
+.menu li + li {
+  padding-left: 4px;
+}
+
+.cotainer-separator-top {
+  height: 6px;
+  width: 100%;
+  background: #323746;
+}
+
+.cotainer-separator-middle {
+  height: 15px;
+  width: 100%;
+  background: #ea676b;
+}
+
+.cotainer-separator-bottom {
+  height: 6px;
+  width: auto;
+  background: #ffffff;
+}
+
+.slider {
+  height: 594px;
+  width: 1020px;
+  background: #f06c64;
+  margin-bottom: -4px;
+}
+
+section {
+  padding: 30px 0 0 30px;
+  height: 465px;
+  width: auto;
+  background: #f2f2f2;
+    
+}
+
+.our-services {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+#p-services {
+  line-height: 1.4;
+  font-size: 13pt;
+  text-align: justify;
+  margin-right: 18px;
+}
+
+
+.article-one {
+  margin-top: 28px;
+  margin-left: 1px;
+  margin-right: 33px;
+}
+
+.article-two {
+  margin-top: 12px;
+  margin-left: 1px;
+  margin-right: 33px
+}
+
+ 
+.container-info {  
+  display: flex;
+}
+
+.item-1, .item-2 {
+  text-align: left;
+ }
+
+.item-1 {
+  width: 61px;
+  margin: auto;
+}
+
+.item-2 {
+  width: 221px;
+  margin: auto;
+}
+
+table#header-slider {
+  width: 1020px;
+  margin: auto;
+  height: 600px;
+ }
+
+td#header-slider {
+  margin: auto;
+}
