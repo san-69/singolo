@@ -1,2 +1,2 @@
-# singolo-
+# singolo
 task singolo
