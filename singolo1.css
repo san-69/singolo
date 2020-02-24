@@ -1,8 +1,8 @@
-﻿@font-face {
+@font-face {
   font-family: 'Lato', sans-serif;
   src: url(assets/lato/Lato-Regular);
   src: url(assets/lato/Lato-Bold);
-   }
+}
 
 h1, h2, h3, p, a {
   font-family: 'Lato', sans-serif;
@@ -40,17 +40,16 @@ a {
 }
 
 #strelka-levo:hover {
-	cursor: pointer;
-   -webkit-transform: scale(1.15);
- -moz-transform: scale(1.15);
- -o-transform: scale(1.2);
-  
+  cursor: pointer;
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.2);
 }
 
 #strelka-pravo:hover {
-   -webkit-transform: scale(1.15);
- -moz-transform: scale(1.15);
- -o-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
   
 }
 
@@ -149,7 +148,6 @@ section {
   margin-top: 28px;
   margin-left: 1px;
   margin-right: 33px;
-  
 }
 
 .article-two {
@@ -161,8 +159,6 @@ section {
  
 .container-info {  
   display: flex;
-  
-   
 }
 
 .item-1, .item-2 {
